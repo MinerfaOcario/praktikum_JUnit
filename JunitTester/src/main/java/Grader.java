@@ -5,7 +5,7 @@ public class Grader {
             throw new IllegalArgumentException("Number grade cannot process");
         }
         else if (numberGrade < 60) {
-            return 'F';
+            return 'E';
         }
         else if (numberGrade < 70) {
             return 'D';
