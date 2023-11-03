@@ -24,6 +24,7 @@ class GraderTest {
         assertEquals('C', grader.determineLetterGrade(79));
     }
 
+
     @Test
         //saat diberi nilai 89 akan mengembalikan nilai B
     void  delapanPuluhSembilanSamaDenganB(){
